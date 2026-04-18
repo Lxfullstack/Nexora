@@ -12,7 +12,7 @@ export default function HeroSection() {
                 <p>Sell smarter, create freely, and connect with a community built for growth</p>
                 <div className='flex gap-4'>
                     <a href="#" className='flex justify-between items-center bg-(--color-primary)'>Start Selling <img src={selling} alt="" /></a>
-                    <a href="" className='flex items-center bg-(--gradient-1)'>Start Creating  <img src={creating} alt="" /></a>
+                    <a href="" className='flex justify-between items-center bg-white'>Start Creating  <img src={creating} alt="" /></a>
                 </div>
             </div>
             <div>
