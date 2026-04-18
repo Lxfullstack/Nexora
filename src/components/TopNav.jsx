@@ -20,7 +20,9 @@ export default function TopNav() {
                         <a href="#">Contact</a>
                     </div>
                 </div>
-                <button className='flex justify-center items-center px-4 py-2 bg'>Get Started</button>
+                <button className='flex justify-center items-center px-4 py-3 bg-(--color-primary) text-white rounded'>
+                    Get Started
+                </button>
             </div>
        </nav>
     )
