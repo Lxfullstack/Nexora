@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 
 :root {
+    font-family: 'Inter', sans-serif;
     --color-primary: #6A5CFF;
     --gradient-1:#fff7ff ;
     --gradient-2: #fceef9;
