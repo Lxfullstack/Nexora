@@ -4,7 +4,7 @@ import searchBotton from '../assets/images/searchIcon.svg'
 
 export default function TopNav() {
     return (
-       <nav className="bg-white sticky z-55 top-0">
+       <nav className="bg-white sticky flex-1 z-55 top-0">
             <div className="container  mx-auto flex items-center justify-between  py-4">
                 <div className='flex gap-10'>
                     <a href="#"><img src={logo} alt="Nexora Logo"/></a>

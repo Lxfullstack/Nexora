@@ -25,7 +25,7 @@ const steps = [
 
 export default function HowItWorks() {
     return (
-        <div className="bg-(--gradient-1) p-10">
+        <div className="bg-(--gradient-1) p-10 mb-10">
             <div className="container mx-auto p-10 rounded bg-white">
 
                 <div className="text-center flex flex-col gap-4 mb-16">

@@ -6,12 +6,14 @@ import About from './sections/About'
 export default function App() {
     return (
         <div>
+            <TopNav />
             <div className='h-screen flex flex-col mb-20'>
-                <TopNav />
                 <HeroSection />
             </div>
-            <HowItWorks />
-            <About />
+            <div className='bg-(--gradient-1)'>
+                <HowItWorks />
+                <About />
+            </div>
         </div>
     )
 }
