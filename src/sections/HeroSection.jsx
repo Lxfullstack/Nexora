@@ -11,7 +11,7 @@ export default function HeroSection() {
     return (
         <section className="hero-section flex-1 container mx-auto px-10 pt-10 rounded-lg 
         bg-linear-to-r from-(--gradient-1) via-(--gradient-2) via-(-gradient-3) to-(--gradient-4)
-        grid grid-cols-2">
+        grid grid-cols-1 lg:grid-cols-2">
             <div className='flex flex-col justify-between'>
                 <div className='flex flex-col gap-4'>
                     <h1 className='font-bold text-6xl tracking-tighter text-pretty'>
