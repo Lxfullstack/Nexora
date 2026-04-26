@@ -35,7 +35,7 @@ export default function HeroSection() {
                 </div>
             </div>
             <div className='relative'>
-                <img className='max-h-240' src={shoppingWoman} alt="woman shopping" />
+                <img className='max-h-240 absolute bottom-0'  src={shoppingWoman} alt="woman shopping" />
                 <div className='hero-cards absolute top-30 left-0 w-full h-3/4'>
                     <div className="absolute top-10 left-10 bg-white/50 backdrop-blur-lg p-4 rounded-md text-sm flex flex-col gap-2">
                         <p>Wireless Earbuds</p>

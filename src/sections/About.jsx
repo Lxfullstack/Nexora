@@ -41,10 +41,10 @@ export default function About() {
                        </div>
                         <div className="grid grid-cols-3 gap-4">
                             {cardData.map((card) => (
-                                <div key={card.id} className="bg-white p-4 rounded-xl">
-                                    <img src={card.img} alt="vendors" />
+                                <div key={card.id} className="bg-white p-4 rounded-xl flex flex-col gap-2">
+                                    <img src={card.img} alt="vendors" className="justify-self-start self-start" />
                                     <h4 className="text-lg">{card.title}</h4>
-                                    <p className="text-sm text-pretty">{card.desc}</p>
+                                    <p className="text-xs text-pretty">{card.desc}</p>
                                 </div>
                             ))}
                         </div>

@@ -2,6 +2,9 @@ import TopNav from './components/TopNav'
 import HeroSection from './sections/HeroSection'
 import HowItWorks from './sections/Features'
 import About from './sections/About'
+import Cta from './sections/Cta'
+import Contact from './sections/Contact'
+import Footer from './sections/Footer'
 
 export default function App() {
     return (
@@ -14,6 +17,9 @@ export default function App() {
                 <HowItWorks />
                 <About />
             </div>
+            <Cta />
+            <Contact/>
+            <Footer />
         </div>
     )
 }
