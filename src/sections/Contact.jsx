@@ -12,7 +12,7 @@ export default function Contact() {
             <div className="container mx-auto p-4 flex flex-col gap-4 justify-center">
                 <h2 className='text-center text-(--color-primary) text-4xl font-bold'>Get in Touch with Nexora</h2>
                 <p className='text-center text-lg'>Have questions or need support? We'd love to hear from you</p>
-                <div className='grid grid-cols-2 gap-8'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
                     <div className='flex flex-col gap-8'>
                         <div className='bg-(--features-card-bg) flex gap-4 p-4 justify-start items-start rounded-xl'>
                             <img src={email} alt="email logo" />

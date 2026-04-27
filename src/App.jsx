@@ -10,7 +10,7 @@ export default function App() {
     return (
         <div>
             <TopNav />
-            <div className='h-screen flex flex-col mb-20'>
+            <div className='lg:h-screen flex flex-col mb-20'>
                 <HeroSection />
             </div>
             <div className='bg-(--gradient-1)'>

@@ -31,7 +31,7 @@ export default function About() {
         <section className="bg-linear-to-t  from-(--gradient-5) to-(--gradient-1)">
             <div className="container mx-auto">
                 <h2 className="text-center mb-6 text-(--color-primary) text-4xl">About Nexora</h2>
-                <div className="grid grid-cols-2 gap-14">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-14">
                     <div className="flex flex-col justify-evenly self-start gap-16">
                        <div className="flex flex-col gap-4">
                          <h3 className="text-5xl  font-bold text-pretty">Built for vendors and creators to <span className="text-(--color-primary)">grow together</span></h3>
