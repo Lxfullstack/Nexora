@@ -10,10 +10,10 @@ import check from '../assets/images/check.svg'
 export default function Cta() {
     return (
         <section className="bg-(--gradient-5) border border-(--cta-bg) p-4">
-            <div className="container mx-auto p-4 flex flex-col gap-8 items-center justify-start">
+            <div className="container mx-auto md:p-4 flex flex-col gap-8 items-center justify-start">
                 <div>
-                    <h2 className="text-center font-bold text-5xl mb-4">Start Growing with <span className="text-(--color-primary)">Nexora</span> Today</h2>
-                    <p className="text-center text-xl leading-5">Join vendors selling products and creators earning commissions on our platform. <br />
+                    <h2 className="text-center font-bold text-4xl md:text-5xl mb-4">Start Growing with <span className="text-(--color-primary)">Nexora</span> Today</h2>
+                    <p className="text-center md:text-xl leading-5">Join vendors selling products and creators earning commissions on our platform. <br />
                         Build your business and grow your income with Nexora.</p>
                 </div>
                 <div className="flex gap-6">
