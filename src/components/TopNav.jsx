@@ -1,26 +1,16 @@
 import logo from '../assets/images/nexoraLogo.svg'
 import searchBotton from '../assets/images/searchIcon.svg'
 import { useState, useRef } from 'react'
-import gsap from 'gsap'
-import { useGSAP } from '@gsap/react'
 
-gsap.registerPlugin(useGSAP)
+
+
 
 export default function TopNav() {
     const [menuOpen, setMenuOpen] = useState(false)
-    const container = useRef(null)
-
-    useGSAP(() => {
-        gsap.from(container.current, {
-            y: -60,
-            opacity: 0,
-            duration: 0.5,
-            ease: "power2.out"
-        })
-    }, { scope: container })
+   
 
     return (
-        <nav ref={container} className="navbar bg-white sticky top-0 z-50 shadow-sm">
+        <nav className="navbar bg-white sticky top-0 z-50 shadow-sm">
             <div className="container mx-auto flex items-center justify-between px-4 py-4">
 
                 {/* Logo */}
