@@ -26,13 +26,13 @@ const steps = [
 export default function HowItWorks() {
     return (
         <div className="bg-(--gradient-1) p-0 lg:p-10 mb-10">
-            <div className="container mx-auto p-10 rounded bg-white">
+            <div className="container mx-auto p-4 lg:p-10 rounded bg-white">
 
                 <div className="text-center flex flex-col gap-4 mb-16">
-                    <h2 className="text-(--color-primary) font-medium text-5xl">
+                    <h2 className="text-(--color-primary) font-medium text-3xl md:text-5xl">
                         How Nexora Works
                     </h2>
-                    <p className="text-xl">
+                    <p className="text-lg md:text-xl">
                         A simple marketplace where vendors list products, creators promote them, and everyone earns
                     </p>
                 </div>
@@ -50,21 +50,22 @@ export default function HowItWorks() {
                             return (
                                 <div
                                     key={step.id}
-                                    className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center relative"
+                                    className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-5 items-center relative"
                                 >
                                     {/* STEP DOT (center line style) */}
-                                    <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-(--color-primary) text-white items-center justify-center font-bold shadow-lg">
+                                    <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-(--color-primary)
+                                     text-white items-center justify-center font-bold shadow-lg">
                                         {step.id}
                                     </div>
 
                                     {/* CARD */}
                                     <div
                                         className={`
-                                            max-w-md bg-(--features-card-bg) p-6
+                                            max-w-md bg-(--features-card-bg) p-2 lg:p-6
                                             ${isEven ? "md:order-1 md:justify-self-end" : "md:order-2 md:justify-self-start"}
                                         `}
                                     >
-                                        <h3 className="text-3xl mb-3 text-(--color-primary) font-light">
+                                        <h3 className="text-2xl md:text-3xl mb-3 text-(--color-primary) font-bold">
                                             {step.title}
                                         </h3>
                                         <p className="text-(--text-secondary)">

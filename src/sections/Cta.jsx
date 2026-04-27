@@ -16,13 +16,13 @@ export default function Cta() {
                     <p className="text-center md:text-xl leading-5">Join vendors selling products and creators earning commissions on our platform. <br />
                         Build your business and grow your income with Nexora.</p>
                 </div>
-                <div className="flex gap-6">
+                <div className="flex flex-col md:flex-row gap-4 md:gap-6 ">
                     <a href="#" className="flex gap-4 justify-between items-center text-sm rounded-xl border border-(--color-primary)
                      text-white px-6 py-4 bg-(--color-primary)"> <img src={sellingbtn} />Start Selling <img src={arrowht}/></a>
                     <a href="#" className="flex gap-4 justify-between items-center text-sm text-(--color-primary) bg-white rounded-xl border border-(--color-primary)
-                     px-6 py-4 bg-()"><img src={creatingbtn}/> Start Creating <img src={arrowprim}/></a>
+                     px-6 py-4 "><img src={creatingbtn}/> Start Creating <img src={arrowprim}/></a>
                 </div>
-                <div className='flex justify-between gap-6'>
+                <div className='flex flex-wrap md:justify-between gap-4 md:gap-6'>
                     <p className='flex gap-2 justify-between items-center'><img src={check}/> Free to join</p>
                     <p className='flex gap-2 justify-between items-center'><img src={check}/> No credit Card required</p>
                     <p className='flex gap-2 justify-between items-center'><img src={check}/> Start earning instantly</p>

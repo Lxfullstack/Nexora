@@ -51,9 +51,9 @@ export default function HeroSection() {
                             <p className='flex gap-1'>$45 <span className='text-green-400'>+$120</span></p>
                         </div>
                     </div>
-                    <div className="absolute bottom-0 left-8/12 md:bottom-10  md:left-1/2 -translate-x-1/2 bg-white/50 backdrop-blur-lg p-4 rounded-md text-sm">
+                    <div className="absolute bottom-0 left-6/12 md:bottom-10  md:left-1/2 md:-translate-x-1/2 bg-white/50 backdrop-blur-lg p-4 rounded-md text-sm">
                         <p>Your Commision</p>
-                        <span className='flex items-center gap-4 text-lg md:text-3xl font-bold'>40% <img className='w-10' src={chart} alt="tech" /></span>
+                        <span className='flex items-center gap-4 text-lg md:text-3xl font-bold'>40% <img className='w-6' src={chart} alt="tech" /></span>
                         <p className='flex'>Product price: <span>$50</span></p>
                     </div>
                 </div>

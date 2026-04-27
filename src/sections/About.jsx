@@ -34,8 +34,8 @@ export default function About() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-14">
                     <div className="flex flex-col justify-evenly self-start gap-16">
                        <div className="flex flex-col gap-4">
-                         <h3 className=" text-3xl text-center md:text-5xl  font-bold text-pretty">Built for vendors and creators to <span className="text-(--color-primary)">grow together</span></h3>
-                            <p className="text-md text-center  md:text-xl">Nexora is the premier drop-shipping and creator marketplace designed to 
+                         <h3 className=" text-3xl text-center md:text-start md:text-5xl  font-bold text-pretty">Built for vendors and creators to <span className="text-(--color-primary)">grow together</span></h3>
+                            <p className="text-md text-center  md:text-start md:text-xl">Nexora is the premier drop-shipping and creator marketplace designed to 
                             seamlessly connect innovative vendors with influential creators. 
                             We provide the tools, automation, and ecosystem to scale your business effortlessly.</p>
                        </div>
@@ -48,7 +48,7 @@ export default function About() {
                                 </div>
                             ))}
                         </div>
-                        <div className="flex gap-4 self-center">
+                        <div className="flex gap-4 self-center md:self-start">
                             <a href="#" className="text-sm rounded-xl border border-(--color-primary) text-white px-8 py-4 bg-(--color-primary)">Start Creating</a>
                             <a href="#" className="text-sm text-(--color-primary) rounded-xl border border-(--color-primary) px-8 py-4 bg-white">Start Earning</a>
                         </div>
