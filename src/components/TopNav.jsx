@@ -1,7 +1,7 @@
 import logo from '../assets/images/nexoraLogo.svg'
 import searchBotton from '../assets/images/searchIcon.svg'
 import { useState, useRef } from 'react'
-
+import { Link } from 'react-router-dom'
 
 
 
@@ -19,7 +19,7 @@ export default function TopNav() {
                 </a>
 
                 {/* Search — hidden on mobile */}
-                <div className="hidden lg:flex items-center gap-2 w-72 lg:w-96 border border-neutral-400 px-4 py-1">
+                <div className="hidden lg:flex items-center gap-2 w-72 lg:w-96 border border-neutral-400 px-4 py-3">
                     <input
                         type="text"
                         placeholder="Search a product in nexora"
@@ -39,9 +39,9 @@ export default function TopNav() {
                 </div>
 
                 {/* CTA — hidden on mobile */}
-                <button className="hidden lg:flex items-center justify-center px-4 py-2 bg-(--color-primary) text-white rounded text-sm">
+                <Link to='/register' className="hidden lg:flex items-center justify-center px-4 py-2 bg-(--color-primary) text-white rounded text-sm">
                     Get Started
-                </button>
+                </Link>
 
                 {/* Hamburger — visible on mobile only */}
                 <button
