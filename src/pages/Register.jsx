@@ -14,7 +14,7 @@ export default function Register() {
     }
 
     return (
-        <main className="bg-(--features-card-bg) md:bg-white">
+        <main className="h-screen bg-(--features-card-bg) md:bg-white">
             <div className='container mx-auto md:my-8 p-4 lg:max-w-md md:w-4/5 bg-(--features-card-bg)'>
                 <div className='flex flex-col justify-center items-center mb-4'>
                     <Link to="/"><img src={logo} alt="nexora logo" /></Link>
