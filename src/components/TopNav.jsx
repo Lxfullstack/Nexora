@@ -78,9 +78,9 @@ export default function TopNav() {
                     <a href="#" className="text-sm text-neutral-700 hover:text-black py-1 transition-colors">Contact</a>
 
                     {/* Mobile CTA */}
-                    <button className="flex justify-center items-center px-4 py-3 bg-(--color-primary) text-white rounded text-sm">
+                    <Link to='/register' className="flex justify-center items-center px-4 py-3 bg-(--color-primary) text-white rounded text-sm">
                         Get Started
-                    </button>
+                    </Link>
                 </div>
             </div>
         </nav>
