@@ -53,7 +53,7 @@ export default function Contact() {
                             <div className="flex flex-col gap-2">
                                 <label htmlFor="email" >Email</label>
                                 <input  className="border border-gray-300 py-2 px-4 rounded-xl"  type="email" name="email" id="email"/>
-                            </div>    
+                            </div>   
                             <div className="flex flex-col gap-2">
                                 <label htmlFor="subject">Subject</label>
                                 <input   className="border border-gray-300 py-2 px-4 rounded-xl" name="subject" type="text" id="subject"/>
