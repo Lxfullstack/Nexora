@@ -36,11 +36,11 @@ export default function Register() {
                     </div>
                     <div className="input-cont flex flex-col">
                         <label htmlFor="password" className='text-sm'>Password</label>
-                        <input className='border rounded border-gray-200 py-2 bg-white' type="text" name='password'/>
+                        <input className='border rounded border-gray-200 px-4 py-2 bg-white' type="text" name='password'/>
                     </div>
                     <div className="input-cont flex flex-col">
                         <label htmlFor="firstName" className='text-sm'>Confirm Password</label>
-                        <input className='border rounded border-gray-200 py-2 bg-white' type="text" name='confirmation'/>
+                        <input className='border rounded border-gray-200 px-4 py-2 bg-white' type="text" name='confirmation'/>
                     </div>
                     <div>
                         <p className='text-sm mb-2'>I want to join as a</p>
